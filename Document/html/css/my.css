@@ -5,8 +5,12 @@ a {
 	color: #2079c4;
 }
 .breadcrumb a,
-.pagination a {
+.pagination a,
+.breadcrumb .active {
 	font-weight: bold;
+}
+.breadcrumb a {
+	color: #D43F3A;
 }
 .minimum-view {
 	min-width: 1000px;
@@ -61,7 +65,6 @@ a {
 }
 .lead-panel {
 	background: none repeat scroll 0 0 white;
-	opacity: 0.9;
 	min-height: 500px;
 }
 .lead-panel .breadcrumb {
