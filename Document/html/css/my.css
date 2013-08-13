@@ -1,0 +1,92 @@
+body {
+	overflow-x: hidden;
+}
+a {
+	color: #2079c4;
+}
+.breadcrumb a,
+.pagination a {
+	font-weight: bold;
+}
+.minimum-view {
+	min-width: 1000px;
+}
+#navigation_bar {
+	background-color: #1C3145;
+	height: 70px;
+	opacity: 0.9;
+	z-index: 9999;
+}
+#navigation_bar .btn-group-justified {
+	width: auto;
+}
+#navigation-searchbox {
+	float: right;
+	top: 0px;
+	right: 0px;
+	padding: 3px;
+	display: block;
+	width: 254px;
+}
+
+#logo {
+	background: url("../img/logo.png") no-repeat;
+	width: 200px;
+	height: 65px;
+	margin-top: 2px;
+	float: left;
+}
+
+#container-content {
+	background: url("../img/home.png") no-repeat top center #1C3145;
+	min-height: 600px;
+}
+.search-input, .search-button {
+	height: 60px;
+	font-size: 20pt;
+}
+.lead-button {
+	background: none repeat scroll 0 0 #1C3145;
+}
+.search-bar {
+	margin-top: 100px;
+	background: none repeat scroll 0 0 #1C3145;
+	opacity: 0.9;
+	padding: 30px 30px 15px 30px;
+}
+#category-navigation {
+	overflow: scroll;
+	width: 435px;
+	padding-right: 0px;
+}
+.lead-panel {
+	background: none repeat scroll 0 0 white;
+	opacity: 0.9;
+	min-height: 500px;
+}
+.lead-panel .breadcrumb {
+	margin-top: 10px;
+	opacity: 1;
+}
+.lead-panel .pagination {
+	float: right;
+}
+
+.list-group .list-group-item:hover,
+.list-group .list-group-item:focus {
+	color: white;
+}
+
+.list-group .list-group-item {
+	font-weight: bold;
+}
+
+.btn-mine {
+	color: #ffffff;
+	background-color: #428BCA;
+	border-color: #2079c4;
+}
+.btn-mine:hover {
+	background-color: #6fb0e7;
+	color: white;
+}
