@@ -75,13 +75,14 @@ a {
 	float: right;
 }
 
-.list-group .list-group-item:hover,
+/*.list-group .list-group-item:hover,
 .list-group .list-group-item:focus {
 	color: white;
-}
+}*/
 
 .list-group .list-group-item {
 	font-weight: bold;
+	color: #333333;
 }
 
 .btn-mine {
@@ -92,4 +93,24 @@ a {
 .btn-mine:hover {
 	background-color: #6fb0e7;
 	color: white;
+}
+.search-button-group {
+	margin-bottom: 0px;
+}
+#container-content input.form-control,
+#container-content select.form-control,
+#container-content textarea.form-control {
+	border: 0px none;
+	box-shadow: none;
+}
+#container-content input.form-control:focus,
+#container-content input.form-control:hover,
+#container-content textarea.form-control:focus,
+#container-content textarea.form-control:hover,
+#container-content select.form-control:focus,
+#container-content select.form-control:hover {
+	border: 1px solid;
+	border-radius: 4px 4px 4px 4px;
+	border-color: #66AFE9;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
 }
